@@ -1,0 +1,64 @@
+.site-main{
+    position: absolute;
+    width: 492px;
+    left: 240px;
+    top: 293px;
+    z-index: 9;
+}
+
+    .intro {
+        width: 492px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        // align-items: center;
+        &__header {
+            // position: absolute;
+            // width: 492px;
+            // height: 264px;
+            // left: calc(50% - 492px/2 - 474px);
+            // top: 293px;
+            font-size: 66px;
+            line-height: 66px;
+            font-weight: 900;
+            margin-bottom: 30px;
+            &--styled {
+                color: transparent;
+                // text-stroke: 1px white;
+                -webkit-text-stroke: 1px #ffffff;      
+            }
+        } //.intro__header
+        &__info {
+                // position: absolute;
+                // width: 438px;
+                // height: 30px;
+                // left: calc(50% - 438px/2 - 501px);
+                // top: 587px;
+                    &--tag-line {     
+                        font-size: 15px;
+                        line-height: 20px;
+                        padding-bottom: 60px;
+                        margin:0;
+                    } //.intro__tag-line
+                    
+                    &--button {
+                        width:138px;
+                        text-align: center;
+                        letter-spacing: -1px;
+                        background: #F10048;
+                        box-shadow: 0px 7px 64px rgba(241, 0, 72, 0.66);
+                        padding: 15px 0;
+                        color: #FFF;
+                        font-size: 17px;
+                        line-height: 22px;
+                        font-weight: bold;
+                        // font-size: 17px;
+                        // border-radius: 2px;
+                        cursor: pointer;
+                            &:hover {
+                            background: rgba(0,0,0,0.35);
+                            border: 1px solid #FFF;
+                            } //.intro__buttton:hover
+                    } //.intro__buttton
+                } //.info   
+        } //.intro
